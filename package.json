@@ -1,0 +1,17 @@
+{
+    "name": "soccer-fan-skill",
+    "description": "Soccer Fan Skill",
+    "version": "1.0.0",
+    "private": true,
+    "license": "MIT",
+    "author": "Pirim",
+    "engines": {
+        "node": ">=10.16.0"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}

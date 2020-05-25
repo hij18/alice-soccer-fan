@@ -1,0 +1,14 @@
+[Unit]
+Description=runSkill
+
+[Service]
+Environment=NODE_PORT=3002
+Type=idle
+WorkingDirectory=/home/peshiy/alice-skills/alice-soccer-fan
+ExecStart=/usr/bin/npm start
+Restart=always
+User=peshiy
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target
